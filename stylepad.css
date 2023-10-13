@@ -1,0 +1,40 @@
+.main{
+    height:500px;
+    width:500px;
+    margin-left: 10px;
+    background-color:rgb(255, 204, 0);
+    border-radius:50%;
+}
+
+.eye{
+    border-radius:50%;
+    height:100px;
+    width:100px;
+    background-color:black;
+    margin-right:10px;
+    margin-top: 90px;
+    margin-left:90px;
+    display: inline-block;
+
+}
+.eye:hover{
+    background-color:rgb(255, 204, 0);
+    transition:0.5s;
+    
+}
+.mouth{
+    height:10px;
+    width:300px;
+    background-color: rgb(0, 0, 0);
+    border-bottom-left-radius:50px ;
+    border-bottom-right-radius:50px ;
+    margin-top:100px;
+    margin-left:90px;
+    
+
+}
+.mouth:hover{
+    height:100px;
+    background-color:rgb(252, 3, 3);
+    transition: 0.5s;
+}
